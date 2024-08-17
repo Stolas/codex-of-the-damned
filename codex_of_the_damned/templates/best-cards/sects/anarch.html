@@ -10,10 +10,11 @@
         goratrix_high_tower=link("/archetypes/goratrix-high-tower"),
         nananimalism=link("/archetypes/nananimalism")
         %}
-        Anarch have been on the rise the last few years, and they ramped up some
-        classical archetypes to bring them to a new power level,
+        With the influx of Barons and Anarch cards starting V5.
+        In the past they ramped up some classical archetypes to bring them to a new power level,
         like {{ saulot_friends }}, {{ goratrix_high_tower }} or {{ nananimalism }},
         for example.
+        Starting V5 new archetypes have been emerging, such as {{ gangrel_thing }} and {{ chameleon }}.
         {% endtrans %}
     </p>
     <p>
@@ -110,13 +111,6 @@ it becomes a frightening pool damage device.
 {% endtrans %}
 {% endcall %}
 
-{% call layout.card_column("Seattle Committee", decks=21, copies="1-2") %}
-{% trans trimmed twilight_camp=card("Twilight Camp") %}
-A nice way to make a vampire anarch at no cost, it is often played alongside
-{{ twilight_camp }}
-{% endtrans %}
-{% endcall %}
-
 {% call layout.card_column("Diversion", decks=20, copies="6-13") %}
 {% trans trimmed %}
 A versatile combat tool for vampires having both {{ cel }} and {{ for }},
@@ -155,4 +149,27 @@ A decent recursion device, it is often seen in political decks, like {{ death_st
 where it can be used to get back some critical pool damaging vote in hand.
 {% endtrans %}
 {% endcall %}
+
+{% call layout.card_column("Chameleon", decks=9, copies="2-7") %}
+{% trans trimmed chameleon=link("/archetypes/chameleon") %}
+When this card was originally printed it was not a star, but with the influx of easy to access high-capacity barons, like {{ Sergio Bueno }}, {{ Chameleon }} became a true manace on a table.
+Stealing vampires left and right with {{ Banishment }}.
+{% endtrans %}
+{% endcall %}
+
+{% call layout.card_column("The Platinum Protocol", decks=35, copies="8-15") %}
+{% endcall %}
+
+{% call layout.card_column("Break the Bonds", decks=11, copies="9-18") %}
+{% endcall %}
+
+{% call layout.card_column("Anarch Convert", decks=372, copies="2-5") %}
+{% endcall %}
+
+{% call layout.card_column("Bait and Switch", decks=130, copies="3-7") %}
+{% endcall %}
+
+{% call layout.card_column("Organized Resistance", decks=107 copies="4-10") %}
+{% endcall %}
+
 {% endblock %}
